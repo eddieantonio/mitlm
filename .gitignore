@@ -1,0 +1,16 @@
+Makefile
+Makefile.in
+aclocal.m4
+build-aux
+config.log
+config.status
+configure
+libtool
+*.lo
+*.o
+autom4te.cache/
+.libs/
+estimate-ngram
+evaluate-ngram
+interpolate-ngram
+*.la

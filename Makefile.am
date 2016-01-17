@@ -5,6 +5,7 @@ SUBDIRS =
 EXTRA_DIST = autogen.sh
 
 
+AM_CXXFLAGS = -std=c++11
 AM_CPPFLAGS = \
 -I$(top_srcdir)/src
 
