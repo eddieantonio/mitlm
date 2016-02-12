@@ -134,7 +134,8 @@ do
       if grep "^AC_PROG_LIBTOOL" configure.ac >/dev/null; then
 	if test -z "$NO_LIBTOOLIZE" ; then 
 	  echo "Running libtoolize..."
-	  glibtoolize --force --copy
+	  LIBTOOLIZE=`which libtoolize || which glibtoolize`
+	  $LIBTOOLIZE --force --copy
 	fi
       fi
       echo "Running aclocal $aclocalinclude ..."
