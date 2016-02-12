@@ -1,3 +1,10 @@
+Changes in mitlm 0.4.2-ualberta
+-------------------------------
+
+ [easantos@ualberta.ca]
+
+ - support installation on OS X with Homebrew.
+
 Changes in mitlm 0.4.1
 ----------------------
 
