@@ -169,7 +169,7 @@ Vocab::LoadVocab(ZFile &vocabFile) {
     uint64_t v = !MITLMv1;
     try {
         v = ReadUInt64(vocabFile);
-    } catch(std::runtime_error e) {
+    } catch(std::runtime_error &e) {
     }
     if (v == MITLMv1) {
         Deserialize(vocabFile);
